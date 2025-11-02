@@ -1,0 +1,12 @@
+resources:
+  jobs:
+    Demo_Dab:
+      name: Demo_Dab
+      tasks:
+        - task_key: Demo_dab_task
+          notebook_task:
+            notebook_path: /../src/Demo_task.ipynb
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
