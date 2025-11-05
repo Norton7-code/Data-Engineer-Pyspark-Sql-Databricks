@@ -1,0 +1,16 @@
+{
+  "evaluation": {
+    "source": {},
+    "comparison_operator": "EQUAL",
+    "threshold": {
+      "value": {}
+    },
+    "notification": {
+      "retrigger_seconds": 0,
+      "notify_on_ok": true
+    }
+  },
+  "query_lines": [
+    "sss"
+  ]
+}
